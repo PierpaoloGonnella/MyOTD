@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IoDress.iml" filepath="$PROJECT_DIR$/IoDress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myotd0.22/myotd0.22.iml" filepath="$PROJECT_DIR$/myotd0.22/myotd0.22.iml" />
+    </modules>
+  </component>
+</project>

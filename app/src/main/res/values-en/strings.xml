@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyOTD</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nome2">Nome2</string>
+    <string name="title_activity_eta3">Eta3</string>
+    <string name="title_activity_genere4">Genere4</string>
+    <string name="benvenuto1">Welcome!</string>
+    <string name="benvenuto2">Insert some data before you start</string>
+    <string name="donna">Female</string>
+    <string name="età">Age</string>
+    <string name="nome">Name</string>
+    <string name="occupazione">Employment</string>
+    <string name="salva">Save</string>
+    <string name="sesso">Sex</string>
+    <string name="uomo">Male</string>
+    <string name="title_activity_conferma">Done</string>
+    <string name="stagione">Season:</string>
+    <string name="inverno">Winter</string>
+    <string name="estate">Summer</string>
+    <string name="primavera">Spring</string>
+    <string name="autunno">Autumn</string>
+    <string name="tipo">Type:</string>
+    <string name="meteo">Weather:</string>
+    <string name="sole">Sunny</string>
+    <string name="pioggia">Rainy</string>
+    <string name="neve">Snowy</string>
+    <string name="vento">Windy</string>
+    <string name="foschia">Foggy</string>
+    <string name="gelo">Frosty</string>
+    <string name="title_activity_contenitore2">Add an item of clothing</string>
+    <string name="title_activity_main">MYOTD</string>
+    <string name="title_activity_camera"></string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="indumenti">
+        <item>Testa</item>
+        <item>Busto</item>
+        <item>Gambe</item>
+        <item>Piedi</item>
+    </string-array>
+
+    <string-array name="testa">
+        <item>Niente</item>
+        <item>Cravatta</item>
+        <item>Cappello</item>
+        <item>Sciarpa</item>
+        <item>Altro</item>
+    </string-array>
+
+
+    <string-array name="busto">
+        <item>Niente</item>
+        <item>Cappotto</item>
+        <item>T-shirt</item>
+        <item>Maglia</item>
+        <item>Maglione</item>
+        <item>Felpa</item>
+        <item>Cardigan</item>
+        <item>Polo</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="gambe">
+        <item>Niente</item>
+        <item>Pantaloni</item>
+        <item>Jeans</item>
+        <item>Tuta</item>
+        <item>Pantaloncini</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="piedi">
+        <item>Niente</item>
+        <item>Scarpe</item>
+        <item>Calzini</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="colore">
+        <item>Nero</item>
+        <item>Bianco</item>
+        <item>Grigio</item>
+        <item>Jeans</item>
+        <item>Marrone</item>
+        <item>BluNavy</item>
+        <item>Blu</item>
+        <item>BluViola</item>
+        <item>Viola</item>
+        <item>Turchese</item>
+        <item>Verde</item>
+        <item>VerdeLime</item>
+        <item>Giallo</item>
+        <item>ArancioGiallo</item>
+        <item>Arancio</item>
+        <item>RossoArancio</item>
+        <item>Rosso</item>
+        <item>Cremisi</item>
+    </string-array>
+
+    <string-array name="eventi">
+        <item>Casual</item>
+        <item>Elegante</item>
+        <item>Sportivo</item>
+        <item>Party</item>
+    </string-array>
+
+</resources>

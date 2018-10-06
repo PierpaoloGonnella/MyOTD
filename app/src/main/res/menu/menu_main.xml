@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/MENU_1"
+        android:title="OTD"
+        app:showAsAction="always"
+        android:icon="@drawable/iconaotd"/>
+    <item
+        android:id="@+id/MENU_2"
+        android:title="Armadio"
+        app:showAsAction="always"
+        android:icon="@drawable/iconaarmadio"/>
+    <item
+        android:id="@+id/MENU_3"
+        android:title="Meteo"
+        app:showAsAction="always"
+        android:icon="@drawable/iconameteo" />
+    <item
+        android:id="@+id/MENU_4"
+        android:title="Manichino"
+        app:showAsAction="always"
+        android:icon="@drawable/iconaotd" />
+</menu>
+

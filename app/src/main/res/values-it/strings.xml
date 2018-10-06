@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyOTD</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nome2">Nome</string>
+    <string name="title_activity_eta3">Eta</string>
+    <string name="title_activity_genere4">Genere</string>
+    <string name="benvenuto1">Benvenuto</string>
+    <string name="benvenuto2">Inserisci alcuni dati prima di iniziare</string>
+    <string name="donna">Donna</string>
+    <string name="età">Età</string>
+    <string name="nome">Nome</string>
+    <string name="occupazione">Occupazione</string>
+    <string name="salva">Salva</string>
+    <string name="sesso">Sesso</string>
+    <string name="uomo">Uomo</string>
+    <string name="title_activity_armadio">Guardaroba virtuale</string>
+    <string name="title_activity_conferma">Conferma</string>
+    <string name="stagione">Stagione:</string>
+    <string name="estate">Estate</string>
+    <string name="autunno">Autunno</string>
+    <string name="tipo">Tipo:</string>
+    <string name="meteo">Condizioni Meteo:</string>
+    <string name="sole">Sole</string>
+    <string name="pioggia">Pioggia</string>
+    <string name="primavera">Primavera</string>
+    <string name="neve">Neve</string>
+    <string name="vento">Vento</string>
+    <string name="foschia">Foschia</string>
+    <string name="gelo">Gelo</string>
+    <string name="inverno">Inverno</string>
+    <string name="title_activity_contenitore2">Aggiungi un Capo</string>
+    <string name="title_activity_main">MYOTD</string>
+</resources>
