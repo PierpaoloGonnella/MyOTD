@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Ciao!"
+            android:text="Hello!"
             android:id="@+id/domanda"
             android:layout_weight="0.51"
             android:textSize="40dp" />
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="179dp"
             android:layout_height="wrap_content"
-            android:text="Conferma"
+            android:text="Confirm"
             android:id="@+id/conferma"
             android:layout_gravity="center_horizontal"
             android:background="@color/colorPrimary"

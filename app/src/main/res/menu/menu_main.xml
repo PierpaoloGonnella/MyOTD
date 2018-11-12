@@ -7,17 +7,17 @@
         android:icon="@drawable/iconaotd"/>
     <item
         android:id="@+id/MENU_2"
-        android:title="Armadio"
+        android:title="Wardrobe"
         app:showAsAction="always"
         android:icon="@drawable/iconaarmadio"/>
     <item
         android:id="@+id/MENU_3"
-        android:title="Meteo"
+        android:title="Forecast"
         app:showAsAction="always"
         android:icon="@drawable/iconameteo" />
     <item
         android:id="@+id/MENU_4"
-        android:title="Manichino"
+        android:title="Try clothes"
         app:showAsAction="always"
         android:icon="@drawable/iconaotd" />
 </menu>

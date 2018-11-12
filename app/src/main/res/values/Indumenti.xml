@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="indumenti">
-        <item>Testa</item>
-        <item>Busto</item>
-        <item>Gambe</item>
-        <item>Piedi</item>
+        <item>Head</item>
+        <item>Bust</item>
+        <item>Legs</item>
+        <item>Shoes</item>
     </string-array>
 
     <string-array name="testa">
-        <item>Niente</item>
-        <item>Cravatta</item>
-        <item>Cappello</item>
-        <item>Sciarpa</item>
-        <item>Altro</item>
+        <item>Nothing</item>
+        <item>Necktie</item>
+        <item>Hat</item>
+        <item>Scarf</item>
+        <item>Other</item>
     </string-array>
 
 
     <string-array name="busto">
-        <item>Niente</item>
-        <item>Cappotto</item>
+        <item>Nothing</item>
+        <item>Coat</item>
         <item>T-shirt</item>
-        <item>Maglia</item>
-        <item>Maglione</item>
+        <item>Shirt</item>
+        <item>Sweater</item>
         <item>Felpa</item>
         <item>Cardigan</item>
-        <item>Polo</item>
-        <item>Altro</item>
+        <item>Polo-shirt</item>
+        <item>Other</item>
     </string-array>
 
     <string-array name="gambe">
-        <item>Niente</item>
-        <item>Pantaloni</item>
+        <item>Nothing</item>
+        <item>Trousers</item>
         <item>Jeans</item>
-        <item>Tuta</item>
-        <item>Pantaloncini</item>
-        <item>Altro</item>
+        <item>Suit</item>
+        <item>Pants</item>
+        <item>Other</item>
     </string-array>
 
     <string-array name="piedi">
-        <item>Niente</item>
-        <item>Scarpe</item>
-        <item>Calzini</item>
-        <item>Altro</item>
+        <item>Nothing</item>
+        <item>Shouse</item>
+        <item>Socks</item>
+        <item>Other</item>
     </string-array>
 
     <string-array name="colore">
-        <item>Nero</item>
-        <item>Bianco</item>
-        <item>Grigio</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Grey</item>
         <item>Jeans</item>
-        <item>Marrone</item>
-        <item>BluNavy</item>
-        <item>Blu</item>
-        <item>BluViola</item>
-        <item>Viola</item>
-        <item>Turchese</item>
-        <item>Verde</item>
-        <item>VerdeLime</item>
-        <item>Giallo</item>
-        <item>ArancioGiallo</item>
-        <item>Arancio</item>
-        <item>RossoArancio</item>
-        <item>Rosso</item>
-        <item>Cremisi</item>
+        <item>Brown</item>
+        <item>BlueNavy</item>
+        <item>Blue</item>
+        <item>BluePurple</item>
+        <item>Purple</item>
+        <item>Turquoise</item>
+        <item>Green</item>
+        <item>GreenLime</item>
+        <item>Yellow</item>
+        <item>OrangeYellow</item>
+        <item>Orange</item>
+        <item>RedOrange</item>
+        <item>Red</item>
+        <item>Crimson</item>
     </string-array>
 
     <string-array name="eventi">
         <item>Casual</item>
-        <item>Elegante</item>
-        <item>Sportivo</item>
+        <item>Elegant</item>
+        <item>Sport</item>
         <item>Party</item>
     </string-array>
 

@@ -65,13 +65,13 @@ public class ConfermaFragment extends Fragment {
         boolean donna=GenereFragment.getDonna();
         String sesso="";
         if(donna==true)
-            sesso="a donna";
+            sesso="woman";
         else
         if(uomo==true)
-            sesso=" uomo";
+            sesso=" man";
 
         TextView textView=( TextView)rootView.findViewById(R.id.domanda);
-        textView.setText("Bene! Ti chiami " + nome + " e sei un" + sesso + " di " + eta + " anni"
+        textView.setText("Welldone! Your name is " + nome + " and you are a" + sesso + " of " + eta + " years old"
                 + getString(R.string.domanda));
 
         ImageButton fabsx = (ImageButton)rootView.findViewById(R.id.fabsx);

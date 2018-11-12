@@ -2,12 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/edit"
-        android:title="Modifica"
+        android:title="Modify"
         app:showAsAction="always"
         />
     <item
         android:id="@+id/delete"
-        android:title="Cancella"
+        android:title="Cancel"
         app:showAsAction="always"
         />
 

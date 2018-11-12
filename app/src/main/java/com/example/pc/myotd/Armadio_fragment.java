@@ -14,21 +14,14 @@ import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.pc.myotd.DatabaseClasses.CustomCursorAdapter;
 import com.example.pc.myotd.DatabaseClasses.CustomCursorLoader;
 import com.example.pc.myotd.DatabaseClasses.DatabaseHelper;
-import com.example.pc.myotd.Model.Capo;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -146,52 +139,52 @@ public class Armadio_fragment extends Fragment {
                 ImageView show_picture_shape = (ImageView) dialog.findViewById(R.id.image_preview_shape);
                 show_picture.setImageDrawable(Drawable.createFromPath("sdcard/otd_saved_images/Image-" + mCursor.getString(mCursor.getColumnIndex("nome_immagine")) + ".png"));
 
-                if (stringatipo.equals("Cravatta")) {
+                if (stringatipo.equals("Necktie")) {
                     //        show_picture_shape.setImageResource(R.drawable.contorno_cravatta);
                 }
-                if (stringatipo.equals("Cappello")) {
+                if (stringatipo.equals("Hat")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_cappello);
                 }
-                if (stringatipo.equals("Sciarpa")) {
+                if (stringatipo.equals("Scarf")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_sciarpa);
                 }
-                if (stringatipo.equals("Cappotto")) {
+                if (stringatipo.equals("Coat")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_cappotto);
                 }
                 if (stringatipo.equals("T-shirt")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_tshirt);
                 }
-                if (stringatipo.equals("Maglia")) {
+                if (stringatipo.equals("Shirt")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_maglia);
                 }
-                if (stringatipo.equals("Maglione")) {
+                if (stringatipo.equals("Sweater")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_maglione);
                 }
-                if (stringatipo.equals("Felpa")) {
+                if (stringatipo.equals("Sweatshirt")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_felpa);
                 }
                 if (stringatipo.equals("Cardigan")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_cardigan);
                 }
-                if (stringatipo.equals("Polo")) {
+                if (stringatipo.equals("Polo-shirt")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_polo);
                 }
                 if (stringatipo.equals("Jeans")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_jeans);
                 }
-                if (stringatipo.equals("Pantaloni")) {
+                if (stringatipo.equals("Trausers")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_pantaloni);
                 }
-                if (stringatipo.equals("Tuta")) {
+                if (stringatipo.equals("Suit")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_tuta);
                 }
-                if (stringatipo.equals("Pantaloncini")) {
+                if (stringatipo.equals("Pants")) {
                     //       show_picture_shape.setImageResource(R.drawable.contorno_pantaloncini);
                 }
-                if (stringatipo.equals("Scarpe")) {
+                if (stringatipo.equals("Shoes")) {
                     show_picture_shape.setImageResource(R.drawable.contorno_scarpe);
                 }
-                if (stringatipo.equals("Calzini")) {
+                if (stringatipo.equals("Socks")) {
                     //       show_picture_shape.setImageResource(R.drawable.contorno_calzini);
                 }
                 dialog.show();
@@ -282,36 +275,36 @@ public class Armadio_fragment extends Fragment {
     public String[] String_stagioni_from_array(int[] input) {
         String[] output=new String[]{"","","",""};
         if(input[0]==1)
-            output[0]="Inverno";
+            output[0]="Winter";
         if(input[1]==1)
-            output[1]="Autunno";
+            output[1]="Fall";
         if(input[2]==1)
-            output[2]="Primavera";
+            output[2]="Spring";
         if(input[3]==1)
-            output[3]="Estate";
+            output[3]="Summer";
         return output;
 
     }
     public String[] String_meteo_from_array(int [] input){
         String[] output=new String[]{"","","",""};
         if(input[0]==1)
-            output[0]="Sole";
+            output[0]="Sun";
         if(input[1]==1)
-            output[1]="Pioggia";
+            output[1]="Rain";
         if(input[2]==1)
-            output[2]="Vento";
+            output[2]="Wind";
         if(input[3]==1)
-            output[3]="Neve";
+            output[3]="Snow";
         return output;
     }
     public String[] String_occasioni_from_array (int[] input){
         String[] output=new String[]{"","",""};
         if(input[0]==1)
-            output[0]="Sportivo";
+            output[0]="Sport";
         if(input[1]==1)
             output[1]="Casual";
         if(input[2]==1)
-            output[2]="Elegante";
+            output[2]="Elegant";
 
         return output;
     }

@@ -134,7 +134,7 @@
                 <TextView
                     android:layout_width="95dp"
                     android:layout_height="61dp"
-                    android:text="Categoria:"
+                    android:text="Category:"
                     android:id="@+id/textView" />
 
                 <Spinner
@@ -152,7 +152,7 @@
                 <TextView
                     android:layout_width="95dp"
                     android:layout_height="61dp"
-                    android:text="Tipo:"
+                    android:text="Type:"
                     android:id="@+id/textViewC" />
 
                 <Spinner
@@ -171,7 +171,7 @@
                     android:layout_width="95dp"
                     android:layout_height="61dp"
                     android:id="@+id/editText4"
-                    android:text="Colore dominante:" />
+                    android:text="Color 1 (main):" />
 
 
                 <Spinner
@@ -193,7 +193,7 @@
                 <TextView
                     android:layout_width="95dp"
                     android:layout_height="61dp"
-                    android:text="Colore secondario:"
+                    android:text="Color 2:"
                     android:id="@+id/textView3" />
 
                 <Spinner
@@ -211,7 +211,7 @@
                 <TextView
                     android:layout_width="95dp"
                     android:layout_height="61dp"
-                    android:text="Occasione:"
+                    android:text="Dress code:"
                     android:id="@+id/textView4" />
 
                 <LinearLayout
@@ -228,7 +228,7 @@
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sportivo"
+                        android:text="Sport"
                         android:id="@+id/sportivo" />
                 </LinearLayout>
 
@@ -240,7 +240,7 @@
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Elegante"
+                        android:text="Elegant"
                         android:id="@+id/elegante" />
                 </LinearLayout>
 
@@ -318,7 +318,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/editText6"
-                        android:text="Inserisci trama:" />
+                        android:text="Insert texture:" />
 
                     <android.support.design.widget.FloatingActionButton
                         android:id="@+id/aggiungitrama"

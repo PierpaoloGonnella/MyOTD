@@ -1,24 +1,21 @@
 package com.example.pc.myotd;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.net.Uri;
-import android.provider.MediaStore;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.*;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.pc.myotd.DatabaseClasses.DatabaseHelper;
-
-import java.io.File;
-
-import static android.app.ProgressDialog.show;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -133,52 +130,52 @@ public class Aggiungi_capo_fragment extends Fragment {
                 tipo=parent.getItemAtPosition(position).toString();
 
 
-                if (tipo.equals("Cravatta")) {
+                if (tipo.equals("Necktie")) {
                     //      preview.setImageResource(R.drawable.cravatta);
                 }
-                if (tipo.equals("Cappello")) {
+                if (tipo.equals("Hat")) {
                     preview.setImageResource(R.drawable.cappello);
                 }
-                if (tipo.equals("Sciarpa")) {
+                if (tipo.equals("Scarf")) {
                     preview.setImageResource(R.drawable.sciarpa);
                 }
-                if (tipo.equals("Cappotto")) {
+                if (tipo.equals("Coat")) {
                     preview.setImageResource(R.drawable.cappotto);
                 }
                 if (tipo.equals("T-shirt")) {
                     preview.setImageResource(R.drawable.tshirt);
                 }
-                if (tipo.equals("Maglia")) {
+                if (tipo.equals("Shirt")) {
                     preview.setImageResource(R.drawable.maglia);
                 }
-                if (tipo.equals("Maglione")) {
+                if (tipo.equals("Sweater")) {
                     preview.setImageResource(R.drawable.maglione);
                 }
-                if (tipo.equals("Felpa")) {
+                if (tipo.equals("Sweatshirt")) {
                     preview.setImageResource(R.drawable.felpa);
                 }
                 if (tipo.equals("Cardigan")) {
                     preview.setImageResource(R.drawable.cardigan);
                 }
-                if (tipo.equals("Polo")) {
+                if (tipo.equals("Polo-shirt")) {
                     preview.setImageResource(R.drawable.polo);
                 }
                 if (tipo.equals("Jeans")) {
                     preview.setImageResource(R.drawable.jeans);
                 }
-                if (tipo.equals("Pantaloni")) {
+                if (tipo.equals("Trausers")) {
                     preview.setImageResource(R.drawable.pantaloni);
                 }
-                if (tipo.equals("Tuta")) {
+                if (tipo.equals("Suit")) {
                     preview.setImageResource(R.drawable.tuta);
                 }
-                if (tipo.equals("Pantaloncini")) {
+                if (tipo.equals("Pants")) {
                     //       preview.setImageResource(R.drawable.pantaloncini);
                 }
-                if (tipo.equals("Scarpe")) {
+                if (tipo.equals("Shoes")) {
                     preview.setImageResource(R.drawable.scarpe);
                 }
-                if (tipo.equals("Calzini")) {
+                if (tipo.equals("Socks")) {
                     //       preview.setImageResource(R.drawable.calzini);
                 }
 
@@ -191,21 +188,21 @@ public class Aggiungi_capo_fragment extends Fragment {
         spinnerCategoria.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (parent.getItemAtPosition(position).toString().equals("Testa")) {
+                if (parent.getItemAtPosition(position).toString().equals("Head")) {
                     spinnerTipo.setAdapter(adapterTesta);
-                    categoria = "testa";
+                    categoria = "Head";
                 }
-                if (parent.getItemAtPosition(position).toString().equals("Busto")) {
+                if (parent.getItemAtPosition(position).toString().equals("Bust")) {
                     spinnerTipo.setAdapter(adapterBusto);
-                    categoria = "busto";
+                    categoria = "Bust";
                 }
-                if (parent.getItemAtPosition(position).toString().equals("Gambe")) {
+                if (parent.getItemAtPosition(position).toString().equals("Legs")) {
                     spinnerTipo.setAdapter(adapterGambe);
-                    categoria = "gambe";
+                    categoria = "Legs";
                 }
-                if (parent.getItemAtPosition(position).toString().equals("Piedi")) {
+                if (parent.getItemAtPosition(position).toString().equals("Shoes")) {
                     spinnerTipo.setAdapter(adapterPiedi);
-                    categoria = "piedi";
+                    categoria = "Shoes";
                 }
             }
 
@@ -250,13 +247,13 @@ public class Aggiungi_capo_fragment extends Fragment {
                 occasioni_per_database=getDecimalOccasioni(arrayoccasioni[0], arrayoccasioni[1], arrayoccasioni[2]);
                 tag=nome.getText().toString();
                 if ((stagioni_per_database*meteo_per_database*occasioni_per_database==0)|| (tag.isEmpty()==true)) {
-                    Toast.makeText(getContext(), "Completare il form per favore prima di procedere", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Complete it before continue please", Toast.LENGTH_LONG).show();
 
                 }
                 else {
                     boolean verifica = myDb.insertData(categoria, tipo, ittenColor, ittenColor2, indice_di_riscaldamento, stagioni_per_database, meteo_per_database, occasioni_per_database, tag);
                     if (verifica == false) {
-                        Toast.makeText(getContext(), "Errore di scrittura nel database", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getContext(), "Data base error", Toast.LENGTH_LONG).show();
                     } else {
                         getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_aggiungi_capo_id, new Camera_fragment()).addToBackStack(null).commit();
                     }
