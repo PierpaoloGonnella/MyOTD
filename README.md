@@ -53,9 +53,20 @@ Dummy Menu
 Here you can create your custom OTD or try new combinations.
 
 ## Installation
-Clone this repository: git clone 
-Open the project in Android Studio.
-Build and run the app on an emulator or physical device.
+
+1. **Clone the Repository**:
+
+'git clone https://github.com/PierpaoloGonnella/MyOTD.git'
+
+
+2. **Open the Project in Android Studio**:
+- Launch Android Studio.
+- Click on "Open an existing Android Studio project."
+- Navigate to the location where you cloned the repository and select the project folder.
+
+3. **Build and Run the App**:
+- Connect an emulator or a physical Android device to your computer.
+- Click the "Run" button in Android Studio to build and install the app on the selected device.
 
 Enjoy a hassle-free and fun dressing experience with MyOTD!
 
