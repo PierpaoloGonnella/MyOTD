@@ -40,7 +40,7 @@ Outfit Details
 
 Select Weather Forecast / Dummy Menu
 
-<img src="MyOTD (7).jpeg" alt="Prototype of Connected Can" width="100">
+<img src="MyOTD (7).jpeg" alt="Prototype of Connected Can" width="130">
 
 Weather Forecast
 
