@@ -56,9 +56,9 @@ Here you can create your custom OTD or try new combinations.
 
 1. **Clone the Repository**:
 
-'''
+```
 git clone https://github.com/PierpaoloGonnella/MyOTD.git
-'''
+```
 
 
 2. **Open the Project in Android Studio**:
