@@ -18,16 +18,38 @@ Dress your virtual dummy to create personalized outfits. Choose what you want fr
 
 With the magic button, you can create a new original outfit of the day. The selection is done automatically by the MyOTD algorithm.
 
-### MyOTD Algorithm
+### Overview
+Outfit Logging: Easily log your daily outfits by adding photos and descriptions.
+Weather Integration: MyOTD fetches real-time weather data to help you choose weather-appropriate outfits.
+Calendar View: View your outfits in a calendar format to plan ahead (not yet implemented).
+Categories and Tags: Organize your outfits by categories (e.g., work, casual, formal) and add custom tags.
+Share on Social Media: Share your favorite outfits on Instagram, Facebook, or Twitter.
 
-The MyOTD algorithm suggests the optimal outfit based on your preferences and especially on the weather forecasts. It learns from your choices and gets better over time.
+### Screenshots
+Home Screen
+![MyOTD (2).jpeg]
+![MyOTD (3).jpeg]
 
-## Getting Started
+The Magic Button is the green one :)
+It allows you to create a new OTD!
 
-1. **Install the App**: Download MyOTD from the Google Play Store.
-2. **Create Your Wardrobe**: Start by taking pictures of your clothes and let the app create your virtual wardrobe.
-3. **Dress Your Dummy**: Mix and match clothes on your virtual dummy.
-4. **Use the Magic Button**: Not sure what to wear? Use the magic button and let the MyOTD algorithm choose for you.
+Outfit Details
+![MyOTD (4).jpeg]
+
+Select Weather Forecast / Dummy Menu
+![MyOTD (7).jpeg]
+
+Weather Forecast
+![MyOTD (10).jpeg]
+
+Dummy Menu
+![MyOTD (11).jpeg]
+Here you can create your custom OTD or try new combinations.
+
+## Installation
+Clone this repository: git clone 
+Open the project in Android Studio.
+Build and run the app on an emulator or physical device.
 
 Enjoy a hassle-free and fun dressing experience with MyOTD!
 
