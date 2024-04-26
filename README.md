@@ -27,23 +27,23 @@ Share on Social Media: Share your favorite outfits on Instagram, Facebook, or Tw
 
 ### Screenshots
 Home Screen
-![MyOTD (2).jpeg]
-![MyOTD (3).jpeg]
+<img src="MyOTD (2).jpeg" alt="Prototype of Connected Can" width="400">
+<img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="400">
 
 The Magic Button is the green one :)
 It allows you to create a new OTD!
 
 Outfit Details
-![MyOTD (4).jpeg]
+<img src="MyOTD (4).jpeg" alt="Prototype of Connected Can" width="400">
 
 Select Weather Forecast / Dummy Menu
-![MyOTD (7).jpeg]
+<img src="MyOTD (7).jpeg" alt="Prototype of Connected Can" width="400">
 
 Weather Forecast
-![MyOTD (10).jpeg]
+<img src="MyOTD (10).jpeg" alt="Prototype of Connected Can" width="400">
 
 Dummy Menu
-![MyOTD (11).jpeg]
+<img src="MyOTD (11).jpeg" alt="Prototype of Connected Can" width="400">
 Here you can create your custom OTD or try new combinations.
 
 ## Installation
