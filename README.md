@@ -1,10 +1,10 @@
 # MyOTD - My Outfit of The Day
 
 <p align="center">
-<img src="<p align="center">
-<img src="http://some_place.com/image.png" />
-</p>" />
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
 </p>
+
+
 
 ## Overview
 
