@@ -27,26 +27,31 @@ Share on Social Media: Share your favorite outfits on Instagram, Facebook, or Tw
 
 ### Screenshots
 Home Screen
-<img src="MyOTD (2).jpeg" alt="Prototype of Connected Can" width="100">
-<img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="100">
+
+<img src="MyOTD (2).jpeg" alt="Prototype of Connected Can" width="130">
+<img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="130">
 
 The Magic Button is the green one :)
 It allows you to create a new OTD!
 
 Outfit Details
-<img src="MyOTD (4).jpeg" alt="Prototype of Connected Can" width="100">
+
+<img src="MyOTD (4).jpeg" alt="Prototype of Connected Can" width="130">
 
 Select Weather Forecast / Dummy Menu
+
 <img src="MyOTD (7).jpeg" alt="Prototype of Connected Can" width="100">
 
 Weather Forecast
-<img src="MyOTD (10).jpeg" alt="Prototype of Connected Can" width="100">
+
+<img src="MyOTD (10).jpeg" alt="Prototype of Connected Can" width="130">
 
 Dummy Menu
-<img src="MyOTD (11).jpeg" alt="Prototype of Connected Can" width="100">
+
+<img src="MyOTD (11).jpeg" alt="Prototype of Connected Can" width="130">
 
 Here you can create your custom OTD or try new combinations.
-s
+
 ## Installation
 Clone this repository: git clone 
 Open the project in Android Studio.
