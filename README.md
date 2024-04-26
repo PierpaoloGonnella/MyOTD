@@ -37,8 +37,7 @@ Home Screen
 <img src="MyOTD (2).jpeg" alt="Prototype of Connected Can" width="130">
 <img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="130">
 
-The Magic Button is the green one :)
-It allows you to create a new OTD!
+The Magic Button is the vibrant green icon that works like a fashion genie! With just a tap, it conjures up a brand-new Outfit of the Day (OTD) for you, automatically. 🌟✨
 
 Outfit Details
 
