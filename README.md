@@ -1,5 +1,11 @@
 # MyOTD - My Outfit of The Day
 
+<p align="center">
+<img src="<p align="center">
+<img src="http://some_place.com/image.png" />
+</p>" />
+</p>
+
 ## Overview
 
 MyOTD is an innovative Android application that allows you to create a virtual wardrobe. It's like having a personal stylist in your pocket!
