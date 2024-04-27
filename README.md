@@ -35,15 +35,16 @@ Share on Social Media: Share your favorite outfits on Instagram, Facebook, or Tw
 Home Screen
 
 <img src="MyOTD (2).jpeg" alt="Prototype of Connected Can" width="170">
-<img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="170">
 
 The Magic Button is the vibrant green icon that works like a fashion genie! With just a tap, it conjures up a brand-new Outfit of the Day (OTD) for you, automatically. 🌟✨
+
+<img src="MyOTD (3).jpeg" alt="Prototype of Connected Can" width="170">
 
 Outfit Details
 
 <img src="MyOTD (4).jpeg" alt="Prototype of Connected Can" width="170">
 
-Select Weather Forecast / Dummy Menu
+Select Weather Forecast / Virtual Wardrobe
 
 <img src="MyOTD (7).jpeg" alt="Prototype of Connected Can" width="170">
 
@@ -51,7 +52,7 @@ Weather Forecast
 
 <img src="MyOTD (10).jpeg" alt="Prototype of Connected Can" width="170">
 
-Dummy Menu
+Virtual Wardrobe 
 
 <img src="MyOTD (11).jpeg" alt="Prototype of Connected Can" width="170">
 
