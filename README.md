@@ -4,8 +4,6 @@
 <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
 </p>
 
-WARNING: No updates are available for latest Android versions.
-
 ## Overview
 
 MyOTD is an innovative Android application that allows you to create a virtual wardrobe. It's like having a personal stylist in your pocket!
@@ -77,6 +75,8 @@ git clone https://github.com/PierpaoloGonnella/MyOTD.git
 - Click the "Run" button in Android Studio to build and install the app on the selected device.
 
 Enjoy a hassle-free and fun dressing experience with MyOTD!
+
+** WARNING: No updates are available for latest Android versions.
 
 ## Feedback
 
