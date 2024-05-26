@@ -4,7 +4,7 @@
 <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
 </p>
 
-
+WARNING: No updates are available for latest Android versions.
 
 ## Overview
 
