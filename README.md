@@ -1,5 +1,7 @@
 # MyOTD - My Outfit of The Day
 
+[![Tests](https://github.com/PierpaoloGonnella/MyOTD/actions/workflows/tests.yml/badge.svg)](https://github.com/PierpaoloGonnella/MyOTD/actions/workflows/tests.yml)
+
 <p align="center">
 <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
 </p>
